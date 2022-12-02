@@ -1,9 +1,6 @@
 class FirstDay
-  attr_reader :final
-
   def initialize(input:)
     @input_data = input
-    @final = []
   end
 
   # Part 1
